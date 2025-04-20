@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Aryabhatta 2.0</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Aryabhatta 2.0</h1>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+      <!-- <h1 class="logo">Aryabhatta 2.0</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav> -->
+  </header>
+
+  <section class="hero">
+    <h2>Contact Us</h2>
+    <p>Have questions or want to enroll? We’re here to help!</p>
+    <p><strong>Phone:</strong> <a href="tel:9284547475">9284547475</a></p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/9284547475" target="_blank">Chat with us</a></p>
+    <p><strong>Email:</strong>tuition@example.com</p>
+  </section>
+
+  <footer>
+    Contact us at <br> <br>
+
+    <p>
+      <a href="tel:9284547475"><i class="fa-solid fa-phone"> </i> 9284547475</a> 
+      <br>
+      <a href="https://wa.me/9284547475" target="_blank"> <i class="fa-brands fa-whatsapp"></i> WhatsApp Us</a>
+      <br>
+      <a href="https://maps.app.goo.gl/UpWvT1mFgxmg3b9p6" target="_blank" >
+        <i class="fa-solid fa-location-dot"></i> View on Map
+      </a>
+    </p>
+  </footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const toggle = document.querySelector('.menu-toggle');
+  const navLinks = document.querySelector('.nav-links');
+  toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+});
+</script>
+</body>
+</html>

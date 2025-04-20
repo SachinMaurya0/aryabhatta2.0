@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Results | Aryabhatta 2.0</title>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Aryabhatta 2.0</h1>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Student Results</h2>
+    <p>Here are some of our proud achievers!</p>
+
+    <table style="margin: 2rem auto; border-collapse: collapse; width: 90%; max-width: 600px;">
+      <thead style="background-color: orange; color: white;">
+        <tr>
+          <th style="padding: 10px; border: 1px solid #ccc;">Name</th>
+          <th style="padding: 10px; border: 1px solid #ccc;">Score (%)</th>
+          <th style="padding: 10px; border: 1px solid #ccc;">School</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 10px; border: 1px solid #ccc; text-align: center;">
+            <img src="./assets/personalities/topper 2025/Anupam.jpeg" 
+                 alt="Anupam Mehta" 
+                 style="width: 100px; height: 100px; border-radius: 50%; border: 2px solid black; object-fit: cover; display: block; margin: 0 auto;">
+            <div style="margin-top: 5px;">Mehta</div>
+          </td>
+          
+          <td style="padding: 10px; border: 1px solid #ccc;">92%</td>
+          <td style="padding: 10px; border: 1px solid #ccc;">Baba High School, Bhiwandi</td>
+        </tr>
+
+        
+
+      </tbody>
+    </table>
+  </section>
+
+  <footer>
+    <p>Contact us at <br> 
+      <a href="tel:9284547475"><i class="fa-solid fa-phone"> </i> 9284547475</a> 
+      <br>
+      <a href="https://wa.me/9284547475" target="_blank"> <i class="fa-brands fa-whatsapp"></i> WhatsApp Us</a>
+    </p>
+  </footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const toggle = document.querySelector('.menu-toggle');
+  const navLinks = document.querySelector('.nav-links');
+  toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+});
+</script>
+</body>
+</html>
